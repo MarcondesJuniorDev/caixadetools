@@ -29,9 +29,9 @@ const categories = [
     icon: 'i-lucide-wrench',
     description: 'Ferramentas utilitárias para agilizar sua codificação.',
     tools: [
-      { name: 'Formatador de JSON', desc: 'Valide e formate strings JSON de maneira limpa.', icon: 'i-lucide-braces', badge: 'Popular' },
-      { name: 'Gerador de CPF / CNPJ', desc: 'Gere documentos válidos para fins de testes de software.', icon: 'i-lucide-user-check' },
-      { name: 'Conversor Base64', desc: 'Codifique e decodifique textos ou arquivos facilmente.', icon: 'i-lucide-binary' }
+      { name: 'Formatador de JSON', desc: 'Valide e formate strings JSON de maneira limpa.', icon: 'i-lucide-braces', badge: 'Popular', path: '/desenvolvedor/formatador-json' },
+      { name: 'Gerador de CPF / CNPJ', desc: 'Gere documentos válidos para fins de testes de software.', icon: 'i-lucide-user-check', path: '#' },
+      { name: 'Conversor Base64', desc: 'Codifique e decodifique textos ou arquivos facilmente.', icon: 'i-lucide-binary', path: '#' }
     ]
   },
   {
@@ -39,8 +39,8 @@ const categories = [
     icon: 'i-lucide-wallet',
     description: 'Calculadoras financeiras e simuladores práticos.',
     tools: [
-      { name: 'Juros Compostos', desc: 'Simule o crescimento de seus investimentos no tempo.', icon: 'i-lucide-trending-up', badge: 'Novo' },
-      { name: 'Simulador de Pix', desc: 'Gere QR Codes Pix estáticos para cobranças rápidas.', icon: 'i-lucide-qr-code' }
+      { name: 'Juros Compostos', desc: 'Simule o crescimento de seus investimentos no tempo.', icon: 'i-lucide-trending-up', badge: 'Novo', path: '#' },
+      { name: 'Simulador de Pix', desc: 'Gere QR Codes Pix estáticos para cobranças rápidas.', icon: 'i-lucide-qr-code', path: '#' }
     ]
   },
   {
@@ -48,8 +48,8 @@ const categories = [
     icon: 'i-lucide-file-text',
     description: 'Manipulação e análise de textos em tempo real.',
     tools: [
-      { name: 'Contador de Caracteres', desc: 'Conte palavras, caracteres e analise legibilidade.', icon: 'i-lucide-hash' },
-      { name: 'Gerador de Lorem Ipsum', desc: 'Crie textos fictícios para preenchimento de layouts.', icon: 'i-lucide-file-type' }
+      { name: 'Contador de Caracteres', desc: 'Conte palavras, caracteres e analise legibilidade.', icon: 'i-lucide-hash', path: '#' },
+      { name: 'Gerador de Lorem Ipsum', desc: 'Crie textos fictícios para preenchimento de layouts.', icon: 'i-lucide-file-type', path: '#' }
     ]
   }
 ]
@@ -118,10 +118,11 @@ const categories = [
 
         <!-- Tool Cards Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div
+          <NuxtLink
             v-for="tool in category.tools"
             :key="tool.name"
-            class="group relative flex flex-col justify-between p-6 rounded-2xl border border-slate-200 dark:border-slate-800/60 bg-white dark:bg-slate-900 hover:border-emerald-500/50 dark:hover:border-emerald-500/40 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 cursor-pointer"
+            :to="tool.path"
+            class="group relative flex flex-col justify-between p-6 rounded-2xl border border-slate-200 dark:border-slate-800/60 bg-white dark:bg-slate-900 hover:border-emerald-500/50 dark:hover:border-emerald-500/40 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300"
           >
             <div>
               <div class="flex items-center justify-between mb-4">
@@ -143,7 +144,7 @@ const categories = [
               <span>Acessar Ferramenta</span>
               <UIcon name="i-lucide-arrow-right" class="size-4 transform group-hover:translate-x-1 transition-transform" />
             </div>
-          </div>
+          </NuxtLink>
         </div>
       </div>
     </section>
