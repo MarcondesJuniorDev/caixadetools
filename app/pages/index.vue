@@ -39,7 +39,7 @@ const categories = [
     icon: 'i-lucide-wallet',
     description: 'Calculadoras financeiras e simuladores práticos.',
     tools: [
-      { name: 'Juros Compostos', desc: 'Simule o crescimento de seus investimentos no tempo.', icon: 'i-lucide-trending-up', badge: 'Novo', path: '#' },
+      { name: 'Juros Compostos', desc: 'Simule o crescimento de seus investimentos no tempo.', icon: 'i-lucide-trending-up', badge: 'Novo', path: '/financas/juros-compostos' },
       { name: 'Simulador de Pix', desc: 'Gere QR Codes Pix estáticos para cobranças rápidas.', icon: 'i-lucide-qr-code', path: '#' }
     ]
   },
