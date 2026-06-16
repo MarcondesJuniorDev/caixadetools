@@ -30,7 +30,7 @@ const categories = [
     description: 'Ferramentas utilitárias para agilizar sua codificação.',
     tools: [
       { name: 'Formatador de JSON', desc: 'Valide e formate strings JSON de maneira limpa.', icon: 'i-lucide-braces', badge: 'Popular', path: '/desenvolvedor/formatador-json' },
-      { name: 'Gerador de CPF / CNPJ', desc: 'Gere documentos válidos para fins de testes de software.', icon: 'i-lucide-user-check', path: '#' },
+      { name: 'Gerador de CPF / CNPJ', desc: 'Gere documentos válidos para fins de testes de software.', icon: 'i-lucide-user-check', path: '/desenvolvedor/gerador-cpf-cnpj' },
       { name: 'Conversor Base64', desc: 'Codifique e decodifique textos ou arquivos facilmente.', icon: 'i-lucide-binary', path: '#' }
     ]
   },
