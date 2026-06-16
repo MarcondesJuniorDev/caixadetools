@@ -12,10 +12,12 @@
   "dependencies": {
     "@nuxt/ui": "^4.8.2",
     "nuxt": "^4.4.8",
+    "qrcode": "^1.5.4",
     "vue": "^3.5.35",
     "vue-router": "^5.1.0"
   },
   "devDependencies": {
-    "@iconify-json/lucide": "^1.2.113"
+    "@iconify-json/lucide": "^1.2.113",
+    "@types/qrcode": "^1.5.6"
   }
 }
