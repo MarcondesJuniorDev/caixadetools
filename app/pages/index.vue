@@ -40,7 +40,8 @@ const categories = [
     description: 'Calculadoras financeiras e simuladores práticos.',
     tools: [
       { name: 'Juros Compostos', desc: 'Simule o crescimento de seus investimentos no tempo.', icon: 'i-lucide-trending-up', badge: 'Novo', path: '/financas/juros-compostos' },
-      { name: 'Simulador de Pix', desc: 'Gere QR Codes Pix estáticos para cobranças rápidas.', icon: 'i-lucide-qr-code', path: '/financas/simulador-pix' }
+      { name: 'Simulador de Pix', desc: 'Gere QR Codes Pix estáticos para cobranças rápidas.', icon: 'i-lucide-qr-code', path: '/financas/simulador-pix' },
+      { name: 'Calculadora de FIIs', desc: 'Simule o efeito bola de neve de dividendos com Fundos Imobiliários.', icon: 'i-lucide-building', badge: 'Novo', path: '/financas/calculadora-fiis' }
     ]
   },
   {
