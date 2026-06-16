@@ -31,7 +31,8 @@ const categories = [
     tools: [
       { name: 'Formatador de JSON', desc: 'Valide e formate strings JSON de maneira limpa.', icon: 'i-lucide-braces', badge: 'Popular', path: '/desenvolvedor/formatador-json' },
       { name: 'Gerador de CPF / CNPJ', desc: 'Gere documentos válidos para fins de testes de software.', icon: 'i-lucide-user-check', path: '/desenvolvedor/gerador-cpf-cnpj' },
-      { name: 'Conversor Multiuso', desc: 'Codifique Base64, codifique URLs e converta bases numéricas.', icon: 'i-lucide-binary', path: '/desenvolvedor/conversor' }
+      { name: 'Conversor Multiuso', desc: 'Codifique Base64, codifique URLs e converta bases numéricas.', icon: 'i-lucide-binary', path: '/desenvolvedor/conversor' },
+      { name: 'Gerador de Docker Compose', desc: 'Crie arquivos docker-compose.yml de forma visual e intuitiva.', icon: 'i-lucide-boxes', badge: 'Novo', path: '/desenvolvedor/gerador-docker-compose' }
     ]
   },
   {
@@ -50,7 +51,8 @@ const categories = [
     description: 'Manipulação e análise de textos em tempo real.',
     tools: [
       { name: 'Contador de Caracteres', desc: 'Conte palavras, caracteres e analise legibilidade.', icon: 'i-lucide-hash', path: '/texto/contador-caracteres' },
-      { name: 'Gerador de Lorem Ipsum', desc: 'Crie textos fictícios para preenchimento de layouts.', icon: 'i-lucide-file-type', path: '/texto/gerador-lorem-ipsum' }
+      { name: 'Gerador de Lorem Ipsum', desc: 'Crie textos fictícios para preenchimento de layouts.', icon: 'i-lucide-file-type', path: '/texto/gerador-lorem-ipsum' },
+      { name: 'Conversor de Documentos', desc: 'Extraia texto de PDF, Word (DOCX) e ODT, gere PDFs ou converta dados JSON, CSV, XML e YAML.', icon: 'i-lucide-refresh-cw', path: '/texto/conversor' }
     ]
   }
 ]
