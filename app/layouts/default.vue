@@ -218,23 +218,6 @@ const institutionalLinks = [
               </li>
             </ul>
           </div>
-
-          <!-- Col 4: Tech Info & Performance Status -->
-          <div class="space-y-3">
-            <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-600">Tecnologia</h3>
-            <div class="flex flex-wrap gap-2">
-              <span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-medium bg-emerald-50 dark:bg-emerald-950/30 text-emerald-700 dark:text-emerald-400 border border-emerald-200/40 dark:border-emerald-800/40">
-                Nuxt 4 Active
-              </span>
-              <span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-medium bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-300 border border-slate-200/40 dark:border-slate-800/40">
-                SSR Enabled
-              </span>
-            </div>
-            <div class="flex items-center gap-1.5 text-[11px] text-slate-400 dark:text-slate-500">
-              <span class="h-2 w-2 rounded-full bg-emerald-500 animate-ping" />
-              <span>Pronto para AdSense</span>
-            </div>
-          </div>
         </div>
 
         <div class="mt-12 pt-6 border-t border-slate-100 dark:border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4">
@@ -242,7 +225,7 @@ const institutionalLinks = [
             &copy; {{ new Date().getFullYear() }} Caixa de Tools. Todos os direitos reservados.
           </span>
           <span class="text-[11px] text-slate-400 dark:text-slate-600 flex items-center gap-1">
-            Desenvolvido com <UIcon name="i-lucide-wrench" class="text-emerald-500 size-3" /> usando Nuxt 4 e Tailwind CSS.
+            Desenvolvido com <UIcon name="i-lucide-heart" class="text-emerald-500 size-3" /> por <strong>Marcondes Jr</strong>.
           </span>
         </div>
       </div>

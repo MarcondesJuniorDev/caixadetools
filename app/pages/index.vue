@@ -49,7 +49,7 @@ const categories = [
     description: 'Manipulação e análise de textos em tempo real.',
     tools: [
       { name: 'Contador de Caracteres', desc: 'Conte palavras, caracteres e analise legibilidade.', icon: 'i-lucide-hash', path: '/texto/contador-caracteres' },
-      { name: 'Gerador de Lorem Ipsum', desc: 'Crie textos fictícios para preenchimento de layouts.', icon: 'i-lucide-file-type', path: '#' }
+      { name: 'Gerador de Lorem Ipsum', desc: 'Crie textos fictícios para preenchimento de layouts.', icon: 'i-lucide-file-type', path: '/texto/gerador-lorem-ipsum' }
     ]
   }
 ]
